@@ -1,0 +1,47 @@
+/*           ///////////////////////// //   HOME   ////////////// */
+.home {
+    background: url("./../../img/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.header {
+    /* background: #fff; */
+    color: #fff;
+}
+.nav__link {
+    /* color: # */
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff !important;
+}
+.nav__link.active {
+    color: #28a7e9 !important;
+}
+
+
+
+/* /////////////  Banner */
+.banner .banner__title {
+    font-size: 4rem;
+    font-weight: 700;
+    color: #28a7e9;
+}
+.banner__social {
+    display: flex;
+    justify-content: center;
+}
+.banner__social li {
+    list-style: none;
+    margin: 0 10px;
+    transition: all .4s ease-in-out;
+}
+.banner__social li a {
+    color: #fff;
+}
+.banner__social li:hover {
+    transform: scale(1.4);
+}

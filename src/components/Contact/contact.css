@@ -1,0 +1,111 @@
+
+.contact
+{
+  background: #111;
+  border-top: #fff;
+  border-color: rgb(199, 199, 199);
+}
+.contact__title {
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.formBx
+{
+  min-width: 60%;
+}
+.formBx form
+{
+  display: flex;
+  flex-direction: column;
+}
+.formBx form h3,
+.contactInfo h3
+{
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.formBx form input,
+.formBx form textarea
+{
+  margin-bottom: 20px;
+  padding: 15px;
+  font-size: 16px;
+  background: transparent;
+  border: none;
+  outline: none;
+  background: #222;
+  resize: none;
+  color: #fff;
+}
+.formBx form input::placeholder,
+.formBx form textarea::placeholder
+{
+  color: #999;
+}
+.formBx form textarea
+{
+  min-height: 200px;
+}
+.formBx form input[type="submit"]
+{
+  max-width: 100px;
+  background: #2196F3;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.contactInfo
+{
+  min-width: 40%;
+}
+.contactInfoBx
+{
+  position: relative;
+}
+.contactInfoBx .box
+{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+.contactInfoBx .box .icon
+{
+    min-width: 40px;
+    padding-top: 4px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 24px;
+}
+.contactInfoBx .box .text
+{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #fff;
+    flex-direction: column;
+    font-weight: 300;
+}
+.contactInfoBx .box .text h3
+{
+    font-weight: 500;
+    color: #00bcd4;
+    margin-bottom: 0;
+}
+.contactInfoBx .box .text p
+{
+    font-weight: 300;
+    color: #fff;
+}
+.copyright
+{
+  background: #000;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}

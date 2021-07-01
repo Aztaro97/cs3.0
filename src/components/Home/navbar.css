@@ -1,0 +1,11 @@
+
+
+@media only screen and (max-width:570px) {
+    .nav__link {
+        font-size: 12px;
+        padding: auto 0;
+    }
+    .banner .banner__title {
+        font-size: 2rem;
+    }
+}

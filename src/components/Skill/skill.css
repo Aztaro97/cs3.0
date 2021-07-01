@@ -1,0 +1,19 @@
+.skill {
+    /* background: #; */
+}
+
+.skill__progressbar {
+    width: 100px;
+    height: 100px;
+    margin: 20px auto 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.skill_progress_img {
+    width: 30px;
+    margin-top: -5px;
+}
+.skill_progress_title {
+    font-size: 10px;
+    margin-top: 0;
+}
