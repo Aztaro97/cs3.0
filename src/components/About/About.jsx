@@ -47,7 +47,7 @@ function About() {
               </Col>
               <Col lg={6}>
                 <Zoom>
-                  <a href="https://drive.google.com/file/d/1v9aY1EjzGmyM24vWFPbfIDAXbHNcoEY2/view?usp=sharing" className="about_link btn">
+                  <a href="https://drive.google.com/file/d/1v9aY1EjzGmyM24vWFPbfIDAXbHNcoEY2/view?usp=sharing" className="about_link btn" target="_blank" rel="noreferrer">
                     <FaDownload className="mx-1" /> Download Resume
                   </a>
                 </Zoom>
