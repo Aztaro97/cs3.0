@@ -1,9 +1,10 @@
 /*           ///////////////////////// //   HOME   ////////////// */
 .home {
-    background: url("./../../img/bg.jpg");
+    background: url("../../img/bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    /* background: #111; */
     height: 100vh;
     width: 100%;
 }
@@ -44,4 +45,10 @@
 }
 .banner__social li:hover {
     transform: scale(1.4);
+}
+
+@media only screen and (max-width:768px) {
+    .banner .banner__title {
+        font-size: 1.7rem;
+    }
 }

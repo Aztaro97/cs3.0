@@ -1,5 +1,6 @@
-.skill {
-    /* background: #; */
+.skill h3 {
+    text-align: center;
+    font-weight: 700;
 }
 
 .skill__progressbar {

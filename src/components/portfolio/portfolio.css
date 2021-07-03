@@ -4,6 +4,7 @@
 .portfolio__header {
     text-align: center;
     margin: 30px;
+    font-weight: 700;
 }
 .portfolio__title {
   font-size: 1.4rem;

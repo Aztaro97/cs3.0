@@ -5,8 +5,7 @@ import "./about.css";
 import { Fade, Zoom } from "react-reveal";
 import "react-circular-progressbar/dist/styles.css";
 
-
-const Mypic = "/images/picture.JPG"
+const Mypic = "/images/picture.JPG";
 
 function About() {
   return (
@@ -26,10 +25,12 @@ function About() {
                 <Fade right>
                   <h3 className="about__title">About Me</h3>
                   <p>
-                    Hi , I'm Taro Abdoul Aziz from Niger, Currently I live in
-                    Abu Dhabi ( UAE ). I'm interested and passionate about
-                    coding, music and video games, I am Full-StackJS developer,
-                    I use ReactJS, Redux, NodeJS, MongoDB and MySQL technology
+                    Passionate about new technologies since my youngest age,
+                    Graduated in computer science, and having visited school 42AbuDhabi
+                    (computer school), but also self-taught. I like to browse
+                    everywhere on the internet (forums, online courses, youtube
+                    ... etc) in order to arouse my curiosity and at the same
+                    time satisfy it.
                   </p>
                 </Fade>
               </Col>
@@ -39,8 +40,8 @@ function About() {
                 <Fade right>
                   <h3 className="about__title">Contact Details</h3>
                   <p>Taro Abdoul Aziz</p>
-                  <p>Abu Dhabi - AUE</p>
-                  <p>(+971) 052-465-5728</p>
+                  <p>Abu Dhabi - UAE</p>
+                  <p>(+971) 052 465 5728</p>
                   <p>aztaro97@gmail.com</p>
                 </Fade>
               </Col>

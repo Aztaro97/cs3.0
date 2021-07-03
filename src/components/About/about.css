@@ -1,6 +1,8 @@
+.about  h3 {
+    font-weight: 700;
+}
 .about .about__picture {
     text-align: center;
-
 }
 
 .about_link {
@@ -18,12 +20,16 @@
     opacity: .8;
 } 
 .about__title {
-    font-weight: 500;
+    font-weight: 700;
 }
 
 
 @media only screen and (max-width:570px) {
     .about .about__title{
+        margin-top: 15px;
         text-align: center;
+    }
+    .about_link {
+        margin-top: -20px;
     }
 }
