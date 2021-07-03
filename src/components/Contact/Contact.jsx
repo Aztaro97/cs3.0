@@ -15,14 +15,7 @@ function Contact() {
     },
     onSubmit: (value) => {
       const body = JSON.stringify(value, null, 2);
-      axios
-        .post("/api/form", body)
-        .then((res) => {
-          console.log("Message envoyer");
-        })
-        .catch((err) => {
-          console.log("Non envoyer");
-        });
+      console.log("Message envoyer")
     },
   });
   return (
@@ -74,9 +67,8 @@ function Contact() {
         <div className="formBx">
           <form
             method="POST"
-            action=""
-            onSubmit={formik.handleSubmit}
-            encType="multipart/form-data"
+            action="https://formsubmit.co/aztaro97@gmail.com"
+            // onSubmit={formik.handleSubmit}
           >
             <Fade right>
               <h3>Message Me</h3>
